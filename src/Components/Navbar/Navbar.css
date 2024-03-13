@@ -1,0 +1,105 @@
+.wrapper{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0px auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .navbar{
+    width: 100%;
+    height: 80px;
+    background-color:#FD0000;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar .logo{
+    width: 100px;
+    height: 40px;
+  }
+  .navbar .links{
+    display: flex;
+    cursor: pointer;
+  }
+  .navbar .links li a{
+    margin: 0px 5px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 7px;
+    border-radius: 10px;
+    display: block;
+  }
+  .links li a:hover{
+     transition: .3s;
+  }
+  .navbar .toggle-icon{
+    display: none;
+  }
+  .active{
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+  }
+  
+  @media(max-width: 769px){
+    .navbar{
+      position: relative;
+      transition: 0.5s height ease-in-out;
+    }
+    .navbar.expanded{
+      height: 100vh;
+    }
+    .navbar.expanded .links{
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 1;
+    }
+    .navbar.expanded .links li a{
+      margin: 10px 0px;
+      font-size: 20px;
+    }
+    .navbar .logo{
+      position: absolute;
+      top: 23px;
+      left: 20px;
+    }
+    .navbar .toggle-icon{
+      display: block;
+      position: absolute;
+      top: 28px;
+      right: 20px;
+      color: #ffff;
+      cursor: pointer;
+    }
+    .navbar .links{
+      display: none;
+    }
+    .links li a:hover{
+      border-radius: 20px;
+      transition: 0s;
+    }
+    .navbar .links{
+      position: absolute;
+      top: -450px;
+      left: 0;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: 0.5s opacity ease-in-out;
+    }
+    .navbar .links li a{
+      margin: 15px 0px;
+      font-size: 17px;
+      padding: 10px 20px;
+    }
+  }

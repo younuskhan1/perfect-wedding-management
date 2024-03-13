@@ -8,6 +8,7 @@ import Booking from "../Booking/Booking";
 import Login from "../Login/Login";
 import Logout from "../Logout/Logout";
 import ErrorPage from "../ErrorPage/ErrorPage";
+import AboutUs from "../AboutUs/AboutUs";
 
 const myCreateRoutes = createBrowserRouter([
     {
@@ -18,6 +19,10 @@ const myCreateRoutes = createBrowserRouter([
         {
             path: "/",
             element: <Home></Home>
+        },
+        {
+            path: "aboutUs",
+            element: <AboutUs></AboutUs>
         },
         {
             path: "/career",
