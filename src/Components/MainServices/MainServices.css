@@ -1,0 +1,10 @@
+.main-services-heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.main-service-description{
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+    line-height: 26px;
+}

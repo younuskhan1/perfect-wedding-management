@@ -5,8 +5,8 @@ import Navbar from "../Navbar/Navbar";
 const MainLayout = () => {
     return (
         <div>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
+           <Navbar></Navbar>
+           <Outlet></Outlet>
         </div>
     );
 };

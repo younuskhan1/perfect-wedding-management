@@ -1,9 +1,12 @@
+import Carousel from "../Carousel/Carousel";
+import MainServices from "../MainServices/MainServices";
 import "./Home.css";
 
 const Home = () => {
     return (
         <div>
-            <h1>This is our Home</h1>
+          <Carousel></Carousel>
+          <MainServices></MainServices>
         </div>
     );
 };
