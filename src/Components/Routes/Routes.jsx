@@ -21,7 +21,7 @@ const myCreateRoutes = createBrowserRouter([
             element: <Home></Home>
         },
         {
-            path: "aboutUs",
+            path: "/aboutUs",
             element: <AboutUs></AboutUs>
         },
         {
