@@ -15,25 +15,25 @@ const MainServices = () => {
                     <div className="single-item">
                         <img src={engagement} alt=""/>
                         <div className="item-text">
-                            <h2>Engagement Ceremony</h2>
+                            <h2 className="service-name">Engagement Ceremony</h2>
                         </div>
                     </div>
                     <div className="single-item">
                         <img src={gayeHolud} alt=""/>
                         <div className="item-text">
-                            <h2>Gaye Holud Ceremony</h2>
+                            <h2 className="service-name">Gaye Holud Ceremony</h2>
                         </div>
                     </div>
                     <div className="single-item">
                         <img src={marriage} alt=""/>
                         <div className="item-text">
-                            <h2>Marriage Ceremony</h2>
+                            <h2 className="service-name">Marriage Ceremony</h2>
                         </div>
                     </div>
                     <div className="single-item">
                         <img src={bouBhat} alt=""/>
                         <div className="item-text">
-                            <h2>Reception Ceremony</h2>
+                            <h2 className="service-name">Reception Ceremony</h2>
                         </div>
                     </div>
                 </div>

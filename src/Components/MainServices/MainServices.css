@@ -36,22 +36,18 @@
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
 }
 
-
 .single-item:hover{
     transform: translateY(15px);
 } 
-
 
 .single-item:hover::before{
     opacity: 1;
 } 
 
-
 .single-item:hover .item-text{
     opacity: 1;
     transform: translateY(0);
 }
-
 
 .single-item::before{
     content: "";
@@ -66,7 +62,6 @@
     transition: 0.5s;
     opacity: 0;
 }
-
 
 .single-item img{
     width: 100%;
@@ -84,29 +79,9 @@
     transform: translateY(60px);
     transition: 0.5s;
 }
-.item-text h2{
+.service-name{
     margin: 0px;
     letter-spacing: 3px;
-}
-.item-text p{
-    letter-spacing: 1px;
-    font-size: 15px;
-    margin-top: 8px;
-}
-.item-text a{
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    margin: 0 5px;
-}
-.item-text a i{
-    color: #fff;
-    padding: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 @media (max-width:1025px){

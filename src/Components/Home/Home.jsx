@@ -1,4 +1,5 @@
 import Carousel from "../Carousel/Carousel";
+import Features from "../Features/Features";
 import MainServices from "../MainServices/MainServices";
 import "./Home.css";
 
@@ -7,6 +8,7 @@ const Home = () => {
         <div>
           <Carousel></Carousel>
           <MainServices></MainServices>
+          <Features></Features>
         </div>
     );
 };

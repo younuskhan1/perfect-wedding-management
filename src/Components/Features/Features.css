@@ -1,0 +1,144 @@
+
+:root{
+    --cards: 4;
+    --cardHeight: 60vh;
+    --cardTopPadding: 3rem;
+    --cardMargin: 4vw;
+}
+
+.container{
+  width: 85%;
+  margin: 60px auto 30px;
+}
+.heading-title{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#cards{
+    padding-left: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(var(--cards), var(--cardHeight));
+    gap: var(--cardMargin);
+    padding-bottom: calc(var(--cards) * var(--cardTopPadding));
+    margin-bottom: var(--cardMargin);
+}
+#card1{
+    --index:1;
+}
+#card2{
+    --index:2;
+}
+#card3{
+    --index:3;
+}
+#card4{
+    --index:4;
+}
+
+.card{
+    position: sticky;
+    top: 0;
+    padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+#card1 .card-body {
+    display: flex;
+    background-color: #ffff;
+}
+#card2 .card-body {
+    display: flex;
+    background-color: #ffff;
+}
+#card3 .card-body {
+    display: flex;
+    background-color: #ffff;
+}
+#card4 .card-body {
+    display: flex;
+    background-color: #ffff;
+}
+.card-body{
+    /* padding: 20px; */
+    border-radius: 15px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.3);
+    height: var(--cardHeight);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.small-heading{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: "Bakbak One", sans-serif;
+}
+
+.feature-text h1{
+    /* font-size: 30px; */
+    margin-top: 25px;
+    font-family: "Bakbak One", sans-serif;
+}
+.feature-text{
+    width: 70%;
+    height: 100%;
+    background-color: #341DF9;
+    padding: 12px 15px 0px 40px;
+    border-radius: 15px 0px 0px 15px;
+    color: white;
+}
+.purple{
+    background-color: #7F1DF9;
+}
+.maroon{
+    background-color: #5E035D;
+}
+.dark-blue{
+    background-color: #030D5E;
+}
+.feature-logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.short-description{
+    font-size: 18px;
+    padding-top: 20px;
+    line-height: 30px;
+    font-family: "Bakbak One", sans-serif;
+}
+.feature-logo img{
+    height: 150px;
+    width: 150px;
+}
+@media (max-width:426px){
+    .container{
+        width: 95%;
+        margin: 60px auto 30px;
+      }
+    .feature-logo{
+      display: none;
+    }
+   
+    .feature-text{
+        border-radius: 10px;
+        width: 100%;
+        padding: 12px 5px 0px 5px;
+        color: white;
+    }
+    .feature-text h1{
+        font-size: 25px;
+        margin-top: 20px;
+        font-family: "Bakbak One", sans-serif;
+    }
+    .short-description{
+        font-size: 16px;
+        padding-top: 10px;
+        line-height: 20px;
+        text-align: justify;
+    }
+}
