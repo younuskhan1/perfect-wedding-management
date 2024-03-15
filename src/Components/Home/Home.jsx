@@ -1,6 +1,7 @@
 import Carousel from "../Carousel/Carousel";
 import Features from "../Features/Features";
 import MainServices from "../MainServices/MainServices";
+import Venues from "../Venues/Venues";
 import "./Home.css";
 
 const Home = () => {
@@ -9,6 +10,7 @@ const Home = () => {
           <Carousel></Carousel>
           <MainServices></MainServices>
           <Features></Features>
+          <Venues></Venues>
         </div>
     );
 };

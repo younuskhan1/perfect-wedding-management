@@ -3,7 +3,7 @@
     --cards: 4;
     --cardHeight: 60vh;
     --cardTopPadding: 3rem;
-    --cardMargin: 4vw;
+    --cardMargin: 7vw;
 }
 
 .container{
@@ -39,7 +39,7 @@
 
 .card{
     position: sticky;
-    top: 0;
+    top: 60px;
     padding-top: calc(var(--index) * var(--cardTopPadding));
 }
 #card1 .card-body {

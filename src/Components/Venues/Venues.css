@@ -1,0 +1,21 @@
+.venue-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 30px auto;
+    gap: 10px;
+}
+
+.venues-heading{
+    text-align: center;
+}
+
+.venue-card{
+    width: 275px;
+    height: 300px;
+    border: 1px solid violet;
+}
+.venue-card img{
+    height: 70%;
+    width: 100%;
+}
