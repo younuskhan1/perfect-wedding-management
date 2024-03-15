@@ -33,3 +33,91 @@
     margin-left: 30px;
     cursor: pointer;
 }
+
+.google-play-app-store-container{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.google-play-store{
+    width: 125px;
+    height: 40px;
+}
+.google-play-store img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.app-store{
+    width: 125px;
+    height: 40px;
+}
+.app-store img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.microsoft{
+    width: 100%;
+    height: 100%px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.microsoft img{
+    width: 130px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+@media(max-width:1025px){
+    .footer-elements{
+        width: 90%;
+    }
+}
+
+@media(max-width:769px){
+    .footer-container{
+       padding: 50px 10px;
+       height: auto;   
+    }
+    .footer-elements{
+       flex-wrap: wrap;
+       justify-content: center;
+       gap: 50px;
+        width: 100%;
+    }
+    .useful-links ul a li{
+        text-align: center;
+    }
+}
+
+@media (max-width:426px){
+  
+    .footer-container{
+        flex-direction: column;
+        padding: 40px 10px;
+        height: auto;
+    }
+    .footer-elements{
+       flex-direction: column;
+       justify-content: center;
+        width: 100%;
+    }
+    .office-address-division div p{
+        text-align: center;
+    }
+    .useful-links{
+    padding: 20px 0px;
+    }
+    .useful-links ul a li{
+        text-align: center;
+    }
+    .office-heading{
+        text-align: center;
+    }
+}
