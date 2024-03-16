@@ -1,21 +1,70 @@
 .venue-container{
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     width: 90%;
-    margin: 30px auto;
-    gap: 10px;
+    margin: 70px auto;
+    gap: 12px;
 }
 
 .venues-heading{
     text-align: center;
 }
-
+.venues-description{
+    width: 90%;
+    margin: 20px auto 0px;
+    text-align: justify;
+    font-weight: 500;
+    color: gray;
+}
 .venue-card{
     width: 275px;
-    height: 300px;
-    border: 1px solid violet;
+    height: 330px;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
 .venue-card img{
     height: 70%;
     width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.venue-card h4{
+    padding: 0px 10px 0px 10px;
+}
+.venue-card p{
+    padding: 0px 10px 0px 10px;
+    margin-top: 5px;
+}
+
+@media (max-width: 1025px){
+    .venue-container{
+        grid-template-columns: repeat(3, 1fr);
+        width: 95%;
+    }
+    .venue-card{
+        width: auto;
+    }
+    .venues-description{
+        width: 95%;
+    }
+}
+
+@media (max-width: 769px){
+    .venue-container{
+        grid-template-columns: repeat(2, 1fr);
+        width: 95%;
+    }
+    .venue-card{
+        width: auto;
+    }
+}
+
+
+@media (max-width: 426px){
+    .venue-container{
+        grid-template-columns: repeat(1, 1fr);
+        width: 95%;
+    }
+    .venue-card{
+        width: auto;
+    }
 }
