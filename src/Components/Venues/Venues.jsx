@@ -1,12 +1,12 @@
 import "./Venues.css";
-import sonargaon from "../../venues/sonargaon.jpg";
-import intercontinental from "../../venues/intercontinental.jpg";
-import radisson from "../../venues/radisson.jpg";
-import westine from "../../venues/westine.jpg";
-import grandSultan from "../../venues/grand-sultan.jpg";
-import momoIn from "../../venues/momo-inn.jpg";
-import laMaridian from "../../venues/laMeridian.jpg";
-import regency from "../../venues/regency.jpg";
+import sonargaon from "../../venues-images/sonargaon.jpg";
+import intercontinental from "../../venues-images/intercontinental.jpg";
+import radisson from "../../venues-images/radisson.jpg";
+import westine from "../../venues-images/westine.jpg";
+import grandSultan from "../../venues-images/grand-sultan.jpg";
+import momoIn from "../../venues-images/momo-inn.jpg";
+import laMaridian from "../../venues-images/laMeridian.jpg";
+import regency from "../../venues-images/regency.jpg";
 
 const Venues = () => {
     return (

@@ -19,8 +19,9 @@
 .venue-card{
     width: 275px;
     height: 330px;
-    border: 1px solid gray;
+    border: 1px solid rgb(229, 229, 229);
     border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .venue-card img{
     height: 70%;

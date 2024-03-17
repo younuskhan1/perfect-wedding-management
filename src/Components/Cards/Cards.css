@@ -7,3 +7,9 @@
     margin-bottom: 40px;
     text-align: center;
 }
+
+@media (max-width:426px){
+    .service-card-main-container{
+        width: 100%;
+    }
+}
