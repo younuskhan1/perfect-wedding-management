@@ -1,3 +1,4 @@
+import Cards from "../Cards/Cards";
 import Carousel from "../Carousel/Carousel";
 import Features from "../Features/Features";
 import MainServices from "../MainServices/MainServices";
@@ -9,6 +10,7 @@ const Home = () => {
         <div>
           <Carousel></Carousel>
           <MainServices></MainServices>
+          <Cards></Cards>
           <Features></Features>
           <Venues></Venues>
         </div>

@@ -1,0 +1,9 @@
+.service-card-main-container{
+    width: 90%;
+    height: auto;
+    margin: 70px auto ;
+}
+.service-card-main-container h1{
+    margin-bottom: 40px;
+    text-align: center;
+}
