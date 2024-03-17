@@ -1,10 +1,11 @@
 import PropTypes from 'prop-types'; // ES6
 import "./Card.css";
 import Rating from 'react-rating';
+import { Link } from 'react-router-dom';
 
 
 const Card = ({service}) => {
-   const {rating, name, image_url, price, short_description} = service;
+   const {id, rating, name, image_url, price, short_description} = service;
     return (
         <div className='service-card-container'>
            <div className='service-card-image'>
@@ -22,7 +23,7 @@ const Card = ({service}) => {
               </div>
               <div className='rating-button-container'>
                 <p><span className='rating-heading'>Ratings :</span> <Rating className='rating-stars' initialRating={rating} emptySymbol="fa fa-star-o fa-2x" fullSymbol="fa fa-star fa-2x" readonly/></p>
-                <button className='view-details-button'>View Details</button>
+                <Link  to={`/viewCardDetails/${id}`}><button className='view-details-button'>View Details</button></Link>
               </div>
            </div>
         </div>

@@ -9,6 +9,7 @@ import Login from "../Login/Login";
 import Logout from "../Logout/Logout";
 import ErrorPage from "../ErrorPage/ErrorPage";
 import AboutUs from "../AboutUs/AboutUs";
+import ViewCardDetails from "../ViewCardDetails/ViewCardDetails";
 
 const myCreateRoutes = createBrowserRouter([
     {
@@ -47,7 +48,12 @@ const myCreateRoutes = createBrowserRouter([
         {
             path: "/logout",
             element: <Logout></Logout>
-        }
+        },
+        {
+            path: "/viewCardDetails/:id",
+            loader: ()=>fetch("/services.json"),
+            element: <ViewCardDetails></ViewCardDetails>
+        },
       ]
     }
 ])
