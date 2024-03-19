@@ -10,7 +10,7 @@
 .corporate-office-address-container{
     width: 90%;
     height: auto;
-    margin: 20px auto;
+    margin: 30px auto;
     display: flex;
     border: 1px solid black;
 }
@@ -43,7 +43,7 @@
 .it-division-container{
     width: 90%;
     height: auto;
-    margin: 20px auto;
+    margin: 30px auto;
     display: flex;
     border: 1px solid black;
 }
