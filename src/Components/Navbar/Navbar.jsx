@@ -20,7 +20,6 @@ const handleToggle = () =>{
             <li><NavLink to="/" className={({ isActive }) => isActive ? "active" : "" }>Home</NavLink></li>
             <li><NavLink to="/aboutUs" className={({ isActive }) => isActive ? "active" : "" }>About Us</NavLink></li>
             <li><NavLink to="/contact" className={({ isActive }) => isActive ? "active" : "" }>Contact</NavLink></li>
-            <li><NavLink to="/booking" className={({ isActive }) => isActive ? "active" : "" }>Booking</NavLink></li>
             <li><NavLink to="/login" className={({ isActive }) => isActive ? "active" : "" }>Login</NavLink></li>
             <li><NavLink to="/logout" className={({ isActive }) => isActive ? "active" : "" }>Logout</NavLink></li>
          </ul>
